@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat";
+}
+
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+
+}
+
+
+
+h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0 15% 0 15%;
+}
+
+p {
+  color: #8f8f8f;
+}
+.big-heading{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Navigator Bar */
+.navbar-nav {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* download buttoms */
+.download-buttom {
+  margin: 5% 3% 4% 0;
+}
+
+/* title imagine */
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+  left: 20%;
+}
+
+/* icon */
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+i.icons:hover {
+  color: #ff4c88;
+}
+
+.row {
+  text-align: center;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  background-color: #fff;
+  text-align: center;
+}
+.price-text{
+  width: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.cards {
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta{
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 40px 0 40px 0;
+}
+.button3{
+  margin-top:5%;
+}
+.fab{
+  margin-right: 2px;
+}
+.title-h3{
+  font-size: 2rem;
+}
+/* footer section */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  margin-top: 5%;
+}
+.iconf{
+  margin:10px 20px;
+}
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
